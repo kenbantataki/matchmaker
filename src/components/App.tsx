@@ -52,6 +52,7 @@ function App() {
   });
   return (
     <div className="game">
+      <div className="SW-update-dialog"></div>
       <Board
         squares={squares}
         finished={finished}
