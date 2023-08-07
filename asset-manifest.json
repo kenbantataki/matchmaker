@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/matchmaker/static/css/main.c92d190b.css",
-    "main.js": "/matchmaker/static/js/main.1fd98617.js",
+    "main.js": "/matchmaker/static/js/main.d5398027.js",
     "service-worker.js": "/matchmaker/service-worker.js",
     "index.html": "/matchmaker/index.html",
     "main.c92d190b.css.map": "/matchmaker/static/css/main.c92d190b.css.map",
-    "main.1fd98617.js.map": "/matchmaker/static/js/main.1fd98617.js.map"
+    "main.d5398027.js.map": "/matchmaker/static/js/main.d5398027.js.map"
   },
   "entrypoints": [
     "static/css/main.c92d190b.css",
-    "static/js/main.1fd98617.js"
+    "static/js/main.d5398027.js"
   ]
 }
