@@ -41,7 +41,7 @@ function App() {
   const winner = calculateWinner(squares);
   const status = winner
     ? "Winner: " + winner
-    : "test Next player: " + (xIsNext ? "X" : "O");
+    : "test2 Next player: " + (xIsNext ? "X" : "O");
   const moves = _history.map((step, move) => {
     const desc = move ? "Go to move #" + move : "Go to game start";
     return (
