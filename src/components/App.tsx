@@ -1,4 +1,5 @@
 import React, { useState, ReactElement } from "react";
+import Button from '@mui/material/Button';
 import Board from "./Board";
 import "./App.css";
 
@@ -41,12 +42,12 @@ function App() {
   const winner = calculateWinner(squares);
   const status = winner
     ? "Winner: " + winner
-    : "test2 Next player: " + (xIsNext ? "X" : "O");
+    : "test4 Next player: " + (xIsNext ? "X" : "O");
   const moves = _history.map((step, move) => {
     const desc = move ? "Go to move #" + move : "Go to game start";
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{desc}</button>
+        <Button variant="contained" onClick={() => jumpTo(move)}>{desc}</Button>
       </li>
     );
   });
